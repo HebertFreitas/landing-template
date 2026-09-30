@@ -15,11 +15,12 @@ Stack: React 19, Vite 8, Motion 13. Sem backend; o build é um site estático.
 
 1. No GitHub, clique em **Use this template → Create a new repository** (ou `npx degit HebertFreitas/landing-template nome-do-cliente`).
 2. `npm install` e `npm run dev`.
-3. **Tema:** copie um preset de `src/config/themes/` para `src/config/theme.css` (ou ajuste as cores à mão). Cada preset informa no topo qual `fontsUrl` e `themeColor` usar no `site.js`.
-4. **Conteúdo:** preencha `src/config/site.js` de cima para baixo.
-5. **Imagens:** coloque as fotos reais em `public/gallery/`, `public/team/` e `public/app-screens/`, o logo em `public/`, e atualize os caminhos e os tamanhos (largura × altura em pixels) em `site.js`. Prefira `.jpg` com cerca de 1600px no lado maior.
-6. `npm run check`: valida o contraste do tema, verifica imagens faltando e aponta placeholders que sobraram.
-7. `npm run build` e publique a pasta `dist/` (Vercel, Netlify, GitHub Pages…).
+3. **Briefing:** preencha o `BRIEFING.md` e peça à IA: *"Leia o AGENTS.md e crie a landing a partir do BRIEFING.md"*. Ela deve perguntar o que faltar. Os passos 4 a 6 abaixo são o que ela faz (ou o que você faz à mão).
+4. **Tema:** copie um preset de `src/config/themes/` para `src/config/theme.css` (ou ajuste as cores à mão). Cada preset informa no topo qual `fontsUrl` e `themeColor` usar no `site.js`.
+5. **Conteúdo:** preencha `src/config/site.js` de cima para baixo.
+6. **Imagens:** coloque as fotos reais em `public/gallery/`, `public/team/` e `public/app-screens/`, o logo em `public/`, e atualize os caminhos e os tamanhos (largura × altura em pixels) em `site.js`. Prefira `.jpg` com cerca de 1600px no lado maior.
+7. `npm run check`: valida o contraste do tema, verifica imagens faltando e aponta placeholders que sobraram.
+8. `npm run build` e publique a pasta `dist/` (Vercel, Netlify, GitHub Pages…).
 
 ## Opções no `site.js`
 
